@@ -1,0 +1,14 @@
+# This is the WinBUGS version of the DUGONGS  model, without discretization
+# of the variable gamma (This was done due to a technical limitation of
+# classic BUGS: it could only sample from log concave distributions)
+#
+var
+   n, Y, a, b, theta;
+model{
+
+  # Likelihood
+  Y ~ dbinom(theta,n)
+  
+  # Prior
+  theta ~ dbeta(a, b)
+}

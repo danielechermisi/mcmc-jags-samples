@@ -1,0 +1,271 @@
+ifelse(z==0, 0, z/benchstats[1])
+z
+benchstats[1]
+checkstats
+benchstats[1]
+benchstats
+checkstats
+ifelse(z==0, 0, z/benchstats[rnb,2])
+ifelse(z==0, 0, z/benchstats[2])
+ifelse(z==0, 0, z/benchstats[1,2])
+z = 0
+ifelse(z==0, 0, z/benchstats[1,2])
+source("test1.R")
+source("test1.R")
+source("test1.R")
+source("test1.R")
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr")
+source("test.R")
+source("test.R")
+plot(x)
+plot(x)
+summary(x)
+source("test.R")
+source("test.R")
+source("test.R")
+summary(x)
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_bernoulli")
+source("test.R")
+summary(x)
+x
+getwd()
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_binomiale")
+source("test.R")
+source("test.R")
+source("test.R")
+summary(x)
+plot(x)
+summary(x)
+source("test.R")
+summary(x)
+plot(x)
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_binomiale")
+source("test.R")
+summary(x)
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_bernoulli")
+source("test.R")
+summary(x)
+source("test.R")
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+summary(x)
+summary(x)
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+plot(x)
+summary(x)
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+plot(x)
+source("test.R")
+summary(x)
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+source("test.R")
+plot(x)
+summary(x)
+source("test.R")
+summary(x)
+plot(x)
+summary(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+source("test.R")
+source("test.R")
+missing
+missing(x)
+missing(Y)
+missing(x)
+"Y" <- c(1,1,1,1,1,0,0,0,0,0)
+which(is.na(Y))
+"Y" <- c(1,1,1,1,1,0,0,0,0,NA)
+which(is.na(Y))
+"Y" <- c(1,1,1,1,NA,0,0,0,0,NA)
+which(is.na(Y))
+source("test.R")
+source("test.R")
+which(is.na(Y)).indices
+source("test.R")
+source("test.R")
+which(is.na(Y)).indices
+which(is.na(Y))
+length(which(is.na(Y)))
+which(is.na(Y))
+which(is.na(Y))[0]
+which(is.na(Y))[1]
+which(is.na(Y))[2]
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+"missing" <- which(is.na(Y))
+length(missing)
+for(j in 1:length(missing)) {#
+    reso[j] <-  p * fatturato[missing[j]]#
+	}
+for(j in 1:length(missing)) {#
+    reso[j] <-  1 * fatturato[missing[j]]#
+	}
+for(j in 1:length(missing)) {#
+    reso[j] <-  j#
+	}
+var reso[10]
+reso[10]
+reso = c(0,0)
+for(j in 1:length(missing)) {#
+    reso[j] <-  j#
+	}
+reso[1]
+reso[2]
+for(j in 1:length(missing)) {#
+    reso[j] <-  missing[j]#
+	}
+reso[2]
+reso[1]
+Y
+source("test.R")
+"missing" <- Y[which(is.na(Y))]
+missing
+"missing" <- fatturato[which(is.na(Y))]
+"fatturato" <- c(100,230,123,120,1231,100,230,1230,1200,123010)#
+"missing" <- fatturato[which(is.na(Y))]
+missing
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+plot(x)
+source("test.R")
+source("test.R")
+source("test.R")
+"missing" <- rep(0, n)#
+missing[which(is.na(Y))] <- fatturato[which(is.na(Y))]
+missing
+"missing" <- rep(0, n)
+"missing" <- rep(0, 10)
+missing
+missing[which(is.na(Y))] <- fatturato[which(is.na(Y))]
+missing
+source("test.R")
+plot(x)
+missing
+source("test.R")
+plot(x)
+missing
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+source("test.R")
+plot(x)
+summary(x)
+5/8
+source("test.R")
+source("test.R")
+source("test.R")
+summary(x)
+source("test.R")
+summary(x)
+beta(5,10)
+plotbeta(5,10)
+support <- seq(0, 1, .001)#
+hseq <- dbeta(support, alpha, beta)#
+p <- ggplot2::qplot(x = support, y = hseq, geom = "line")
+support <- seq(0, 1, .001)#
+hseq <- dbeta(support, 5, 10)#
+p <- ggplot2::qplot(x = support, y = hseq, geom = "line")
+p
+source("test.R")
+source("test.R")
+source("test.R")
+source("test.R")
+p
+support <- seq(0, 1, .001)#
+hseq <- dbeta(support, 5 + 1, 10 + 2)#
+p <- ggplot2::qplot(x = support, y = hseq, geom = "line")
+p
+support <- seq(0, 1, .001)#
+hseq <- dbeta(support, 5 , 5)#
+p <- ggplot2::qplot(x = support, y = hseq, geom = "line")
+p
+library('BayesFactor')
+library('BayesFactor')
+remove.packages("BayesFactor")
+library('BayesFactor')
+bf = proportionBF( 682, 682 + 243, p = 3/4)
+bf
+1/bf
+getwd()
+setwd("/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_test")
+/Users/dany/Documents/Appunti/Statistica/JAGS/mcmc-jags-examples-13a77310cd6d3c647de3c1c1ccc3d6d68788fdc9/lvr_
+inits <- read.jagsdata("resi-inits.R")
+inits <- read.jagsdata("resi-inits.R")
+inits
+inits.n
+inits.N
+inits
+inits.list()
+inits.list
+list()
+list()
+source("binomiale_chiusto")
+source("binomiale_chiusto.R")
+source("binomiale_chiuso.R")
+1/bf
+1/bf
+chains = posterior(bf, iterations = 10000)#
+plot(chains[,"p"], main = "Posterior of true probability\nof return")
+binom.test(k, n, p = p)
+chains
+plot(chains[,"logodds"], main = "Posterior of log-odds probability\nof return")
+p/(1-p)
+log(p/(1-p))

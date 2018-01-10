@@ -1,0 +1,6 @@
+data <- read.jagsdata("resi-data.R")
+inits <- read.jagsdata("resi-init.R")
+m <- jags.model("resi.bug", data, inits, n.chains=2)
+update(m, 1000)
+x <- coda.samples(m, c("theta"), n.iter=10000)
+summary(x)

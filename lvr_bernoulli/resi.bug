@@ -1,0 +1,16 @@
+#
+var
+   n, Y[n], p, fatturato[n], missing[n];
+model{
+
+  # Likelihood
+  for( i in 1 : n) {
+    Y[i] ~ dbern( p )
+  }
+
+
+  Sreso <- sum(p * missing)
+  # Prior
+  p ~ dunif( 0, 1 )
+  # p ~ dbeta(5,n)
+}
