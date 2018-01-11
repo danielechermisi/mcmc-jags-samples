@@ -1,3 +1,4 @@
+#http://www4.stat.ncsu.edu/~reich/st590/code/BetaBinomJAGS
 # rm(list=ls())
 library(rjags)
 
