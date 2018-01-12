@@ -1,3 +1,4 @@
+library('rjags')
 data <- read.jagsdata("resi-data.R")
 inits <- read.jagsdata("resi-init.R")
 m <- jags.model("resi.bug", data, inits, n.chains=2)
